@@ -34,7 +34,7 @@ Examples
 const proxyquire = require('proxyquire')
 const memfs = require('memfs')
 
-proxyquire("fs-extra", {
+const memfse = proxyquire("fs-extra", {
     'fs': {
         ...memfs,
         '@global': true
