@@ -39,7 +39,7 @@ proxyquire("fs-extra", {
         ...memfs,
         '@global': true
     },
-    './lib/proxyquire/node-version': {
+    './lib/override/node-version': {
         value: '14.0.0',
         '@global': true
     }
