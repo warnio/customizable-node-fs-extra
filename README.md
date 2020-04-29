@@ -1,4 +1,4 @@
-Node.js: proxyquire-fs-extra
+Node.js: customizable-fs-extra
 ==============================
 
 [`fs-extra`](https://github.com/jprichardson/node-fs-extra/) but customizable by overriding modules using monkey patching.
