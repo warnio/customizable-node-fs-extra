@@ -19,9 +19,9 @@ Just replace the `fs` module with the custom `fs`. The custom `fs` module must h
 
 One of the following modules can be replaced using proxyquire. The paths are relative to the `proxyquire-fs-extra` root. 
 
-- `./lib/proxyquire/node-version`: An `object` containing the following property
+- `./lib/override/node-version`: An `object` containing the following property
     - `value`: A `string` being the node file system api the custom file system api is equivalent to.
-- `./lib/proxyquire/options`: An `object` containting the following properties:
+- `./lib/override/options`: An `object` containting the following properties:
     - `useBigInt`: A `boolean` whether the custom file system supports big-ints. Normally, this value is derived by comparing the current node version.
     - `useNativeRecursiveOption`: A `boolean` whether the custom file system supports the recursive option. Normally, this value is derived by comparing the current node version.
 
